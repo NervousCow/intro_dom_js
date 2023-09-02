@@ -15,3 +15,8 @@ Cuando un botón es presionado, se debe agregar la clase
 "fuego" al botón (deberá cambiar de color)
 
 */
+
+function fuego(id) {
+  const boton = document.querySelector(id)
+  boton.className = "fuego"
+}
